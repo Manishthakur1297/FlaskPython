@@ -6,6 +6,7 @@ class Emp:
     count = 0
     
     def __init__(self, salary, designation):
+        self.id = int(input("Enter Employee Id : "))
         self.name = input("Enter Name : ")
         try:
             self.age = int(input("Enter Age : "))

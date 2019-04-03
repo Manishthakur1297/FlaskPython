@@ -3,7 +3,7 @@ class InvalidChoiceException(Exception):
         while(True):
             try:
                 choice = int(input("Enter Choice : "))
-                if(choice<1 or choice>4):
+                if(choice<1 or choice>5):
                     raise InvalidChoiceException
                 return choice
             except ValueError:
